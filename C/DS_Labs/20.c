@@ -45,7 +45,7 @@ struct node *del(struct node *ptr, int dkey)
     struct node *tmp, *succ;
     if (ptr == NULL)
     {
-        printf("Element %d is not present in the tree.\n", dkey);
+        printf("Element %d not present in the tree.\n", dkey);
         return ptr;
     }
     if (dkey < ptr->info)
