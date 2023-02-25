@@ -27,7 +27,7 @@ int main()
             insert_edge(origin, destin);
             break;
         case 2:
-            printf("Enter an edge to be deleted : ");
+            printf("Enter an edge to be deleted: ");
             scanf("%d %d", &origin, &destin);
             del_edge(origin, destin);
             break;
