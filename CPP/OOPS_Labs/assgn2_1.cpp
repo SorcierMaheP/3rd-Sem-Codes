@@ -8,7 +8,7 @@ class complex
 public:
     void display()
     {
-        cout << "The complex nuber is : " << setprecision(4) << real << " + " << setprecision(4) << imag << "I" << endl;
+        cout << "The complex number is : " << setprecision(4) << real << " + " << setprecision(4) << imag << "I" << endl;
     }
     void enter()
     {
