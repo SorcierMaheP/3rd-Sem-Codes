@@ -54,7 +54,7 @@ int main()
         switch (choice)
         {
         case 1:
-            printf("Enter a vertex to be inserted - ");
+            printf("Enter a vertex to be inserted  ");
             scanf("%d", &u);
             insertVertex(u);
             break;
